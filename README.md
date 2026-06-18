@@ -792,7 +792,7 @@ app.run(host='0.0.0.0', port=5001, debug=True)
 
 **Email**：3077384244@qq.com
 
-**项目地址**：<a href="https://gitee.com/kevin402108/flink_shop">https://gitee.com/kevin402108/flink_shop.git</a>
+**项目地址**：<a href="https://github.com/kevin402108/flink_shop">https://github.com/kevin402108/flink_shop.git</a>
 
 
 

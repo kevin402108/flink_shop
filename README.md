@@ -623,6 +623,7 @@ rowkey,username,age,sex,goods_id,price,store_id,action_type,phone,email,date
 ### 4. 各门店销售额柱状图
 
 ![img.png](ui_img/img_12.png)
+
 垂直柱状图对比12个门店的销售业绩
 
 **图表特性**：
@@ -788,7 +789,7 @@ app.run(host='0.0.0.0', port=5001, debug=True)
 
 **作者**：<a href="https://github.com/kevin402108">Kevin Chan</a>
 
-**项目地址**：<a href="https://github.com/kevin402108/flink-demo">https://github.com/kevin402108/flink-demo</a>
+**项目地址**：<a href="https://github.com/kevin402108/flink_shop">https://github.com/kevin402108/flink_shop</a>
 
 **联系作者**：3077384244@qq.com
 

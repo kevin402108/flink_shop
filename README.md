@@ -56,6 +56,7 @@ flink_shop/
 │   └── index.html               # 数据可视化前端页面
 ├── pom.xml                      # Maven 配置文件
 └── README.md                    # 项目说明文档
+└── spool-memory-kafka.conf      # Flume 配置文件
 ```
 ### 文件详细说明
 
@@ -352,7 +353,7 @@ mvn clean package
 ```
 bash
 # 配置并启动 Flume Agent
-flume-ng agent -c conf -f flume.conf -n agent
+/usr/local/flume/bin/flume-ng agent -c /usr/local/flume/conf/ -f /usr/local/flume/conf/spool-memory-kafka.conf -n client -Dflume.root.logger=INFO,console
 ```
 **方式B：使用模拟数据生成器**
 ```
@@ -484,7 +485,7 @@ DB_CONFIG = {
 默认使用 1 分钟滚动窗口，可在代码中调整：
 
 ```scala
-.timeWindow(Time.minutes(1))  // 可改为 Time.seconds(30) 或 Time.hours(1)
+.timeWindow(Time.minutes(1)) 
 ```
 ### 前端配置
 
@@ -496,7 +497,7 @@ const BACKEND_URL = 'http://<你的IP>:5000/api/dashboard';
 修改自动刷新间隔（默认 5 秒）：
 
 ```javascript
-setInterval(fetchRealTimeData, 5000);  // 改为 10000 即 10 秒
+setInterval(fetchRealTimeData, 5000);
 ```
 ---
 
@@ -785,12 +786,13 @@ app.run(host='0.0.0.0', port=5001, debug=True)
 
 ---
 
-## ABOUT
+## About
 
 **作者**：<a href="https://github.com/kevin402108">Kevin Chan</a>
 
-**项目地址**：<a href="https://github.com/kevin402108/flink_shop">https://github.com/kevin402108/flink_shop</a>
+**Email**：3077384244@qq.com
 
-**联系作者**：3077384244@qq.com
+**项目地址**：<a href="https://gitee.com/kevin402108/flink_shop">https://gitee.com/kevin402108/flink_shop.git</a>
 
-**License**：MIT
+
+

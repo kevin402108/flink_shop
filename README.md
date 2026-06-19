@@ -652,6 +652,7 @@ rowkey,username,age,sex,goods_id,price,store_id,action_type,phone,email,date
 ### 5. 商品销量Top10排行榜
 
 ![img.png](ui_img/img_14.png)
+
 列表形式展示最热销的10个商品
 
 **排名标识**：
@@ -676,6 +677,7 @@ rowkey,username,age,sex,goods_id,price,store_id,action_type,phone,email,date
 ### 6. 门店访问量Top10排行榜
 
 ![img.png](ui_img/img_15.png)
+
 展示最受欢迎的10个门店
 
 **显示内容**：
@@ -693,6 +695,7 @@ rowkey,username,age,sex,goods_id,price,store_id,action_type,phone,email,date
 ### 7. 转化率分析图
 
 ![img.png](ui_img/img_16.png)
+
 分组柱状图展示三种关键转化率
 
 **转化类型及颜色**：
